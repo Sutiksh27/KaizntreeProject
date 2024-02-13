@@ -119,7 +119,7 @@ EMAIL_HOST = 'your_smtp_host'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'verma.sutiksh27@gmail.com'
-EMAIL_HOST_PASSWORD = 'Kshitij@2720!@#$'
+EMAIL_HOST_PASSWORD = '###########'
 
 # Default "from" address for emails sent with send_mail
 DEFAULT_FROM_EMAIL = 'verma.sutiksh27@gmail.com'
