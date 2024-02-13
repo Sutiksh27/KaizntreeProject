@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import { DataGrid, GridRowsProp, GridColDef, GridToolbar, GridValueFormatterParams } from '@mui/x-data-grid';
+import { useEffect, useState } from 'react'
+import { DataGrid, GridColDef, GridToolbar } from '@mui/x-data-grid';
 import apiHelper from '../utilities/ApiHelper';
 import { Category, Item } from '../utilities/types';
 import ItemForm from '../components/ItemForm';
 import CategoryForm from '../components/CategoryForm';
 
-type Props = {}
-
-const Dashboard = (props: Props) => {
+const Dashboard = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [items, setItems] = useState<Item[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);

@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { loginSuccess } from '../redux/actions.ts';
-import { User } from '../utilities/types.ts';
 import { Link, useNavigate } from 'react-router-dom';
 import KaizntreeLogo from "../assets/Kaizntreelogo.png"
 

@@ -1,9 +1,7 @@
-import React from 'react';
 import { SidebarNavItems, SidebarNavSupportItems } from '../utilities/constants';
 
-type Props = {}
 
-const Sidebar = (props: Props) => {
+const Sidebar = () => {
   return (
     <div className='flex flex-col justify-between w-[200px] h-full shadow-xl p-2'>
         <div className='flex flex-col'>

@@ -1,4 +1,3 @@
-import { User } from '../utilities/types.ts';
 
 
 export const loginSuccess = (email: string, password: string) => ({
